@@ -1,0 +1,2 @@
+This is the text in the sample1 file 
+It should now be in the sample2 file
