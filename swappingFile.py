@@ -16,7 +16,6 @@ def swapFileData():
     with open ("file2","r+") as f:
         data_b = f.read
 
-    
     file1.write(data_b)
 
     
