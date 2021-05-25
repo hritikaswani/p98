@@ -1,7 +1,4 @@
 
-
-
-
 def swapFileData():
     print("Enter the names of the files that you want to have their data swapped.")
 
@@ -10,11 +7,11 @@ def swapFileData():
 
     data_a = ""
     with open ("file1","r+") as f:
-        data_a = f.read
+        data_a = f.read()
     
     data_b = ""
     with open ("file2","r+") as f:
-        data_b = f.read
+        data_b = f.read()
 
     file1.write(data_b)
 
